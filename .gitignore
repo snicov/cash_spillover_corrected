@@ -1,4 +1,28 @@
-readings/
-readings/
-output/
-notes.md
+# macOS
+.DS_Store
+
+# Stata
+*.log
+*.smcl
+*.gph
+
+# Data (comment out lines you actually want to track)
+*.dta
+*.csv
+*.xls*
+*.sav
+/data/
+/rawdata/
+/analysisdata/
+/output/
+/results/
+/temp/
+/intermediate/
+
+# Python / R
+__pycache__/
+.ipynb_checkpoints/
+.Rhistory
+.Rproj.user/
+
+
